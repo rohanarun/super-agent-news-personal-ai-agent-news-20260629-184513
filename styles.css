@@ -1,0 +1,92 @@
+/* Typography & base */
+body {
+  margin: 0;
+  font-family: 'Satoshi', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #0e0e11;
+  background: #fafafa;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn.primary { background: #0e0e11; color: #fff; }
+.btn.secondary { background: transparent; color: #0e0e11; border: 1px solid #ccc; }
+
+/* Hero */
+.hero {
+  padding: 4rem 2rem 6rem;
+  background: radial-gradient(1200px 400px at 50% 0%, #e8e8ff, #fafafa);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content {
+  max-width: 720px;
+  margin: 4rem auto 0;
+}
+
+/* Content */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Bento Grid */
+.bento-container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-flow: dense; /* explicit dense flow to prevent gaps */
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.bento {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.bento.primary {
+  grid-column: span 6;
+  grid-row: span 4;
+}
+.bento.secondary {
+  grid-column: span 3;
+  grid-row: span 4;
+}
+.bento.tertiary {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+@media (max-width: 900px) {
+  .bento-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .bento-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+}
