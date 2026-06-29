@@ -1,0 +1,47 @@
+{
+  "citations": [
+    {
+      "title": "Build a bento layout with CSS grid",
+      "url": "https://engineered.at/articles/build-a-bento-layout-with-css-grid"
+    },
+    {
+      "title": "grid-auto-flow (dense) explained",
+      "url": "https://css-tricks.com/almanac/properties/g/grid/grid-auto-flow/"
+    },
+    {
+      "title": "Gemini can now operate your computer",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNVlMUHR5YkM3QkpZSWcxZ2Qyb1BiZ19rYVZudHVlQjFzQmxJZEkwb1I4NTZsUjBGRmoxdmZ5OVFlOV81MUw2bHVJa1U4bURpTVd6LXd6RlQ5QklhWkxxYlcwSm83UDU1Rkl0SkxudEg3Wm1WNmQ4OEtBT3lDMEFRQjc3Smc4UlpxMG44bWZiUmRXdw"
+    },
+    {
+      "title": "Grok 4.5 enters private beta",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV1lEbWRmc2dvY0dBVWpfeEIyUG9QbVdISkMxY25ObkxQYld1cTZFel9uM1ZHZEhsSUhfMU16X09qWjM0TDFHdE41aUF0TTV0R0ZfX0E0cnRFUWg5bS1PZV9yaUNxVnhrU1VZam1wNmZScG05SE1fWGk3YU5DSGM4X0tPeHNlc2tNcHlMbFF0djFIY19oZjk1WWZhS2lsMUkwTnZReGthUTBRWlEyM3FianladTlzRTJqWVBScGhTQVlaTGpzWU1Yb2RDVGZJWFM2NWxN"
+    },
+    {
+      "title": "Apple unveils next\u2011generation Siri AI at WWDC 2026",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuLXRJc19tNllvUzJrVlFmaVd4ckpBdUhhNFgyZXBycmlKTGJ2V2NyYUlFX3VManpuQW9ncXZtOFFhbmxWTHh2LXhjMWJKcDZaN1h4RS1UcE90aDlJeGpDY3pzMGg5UjhBd3AwQ3Y3QmFrTjVha0xZbmhQZw"
+    }
+  ],
+  "design_plan": "Cinematic editorial blog with a restrained hero, Satoshi-based typography, and a responsive CSS Grid bento layout using grid-auto-flow: dense to avoid gaps. Subtle GSAP scroll motion guarded for no-JS/CDN failure. Clear AIDA flow: lead analysis, market signals, source cards, and a Super positioning CTA.",
+  "generated_at": "2026-06-29T18:45:20.877787+00:00",
+  "headline": "Personal AI Agent Market Brief",
+  "site_brief": {
+    "audience": "buyers and builders tracking personal AI agents",
+    "goal": "Create a frequently refreshed editorial blog homepage with a lead analysis, short posts, source cards, and a clear Super perspective on why computer-use caching makes repeated agent work cheaper and better.",
+    "kind": "blog",
+    "queries": [
+      "personal AI agents",
+      "AI assistants",
+      "computer use AI agent",
+      "browser automation agent",
+      "ChatGPT agent",
+      "Gemini AI assistant",
+      "Grok AI assistant",
+      "Siri AI assistant",
+      "Folk CRM AI",
+      "Orchids AI agent"
+    ],
+    "slug": "personal-ai-agent-news",
+    "title": "Personal AI Agent Market Brief"
+  },
+  "summary": "A continuously refreshed editorial brief for buyers and builders tracking personal AI agents and computer\u2011use assistants. We analyze what\u2019s new across Gemini, ChatGPT, Grok, Siri, Folk, and Orchids \u2014 and explain why Super\u2019s computer\u2011use cache makes repeated workflows cheaper and more reliable."
+}
